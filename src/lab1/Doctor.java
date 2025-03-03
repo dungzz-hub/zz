@@ -90,8 +90,8 @@ public class Doctor {
     @Override
     public String toString() {
         SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
-        return "Doctor ID: " + id + ", Name: " + name + ", DOB: " + sdf.format(dateOfBirth)
+        return "Doctor ID: " + id + ", Namex: " + name + ", DOB: " + sdf.format(dateOfBirth)
                 + ", Specialization: " + specialization + ", Availability: " + availability
-                + ", Email: " + email + ", Mobile: " + mobile;
+                + ", Email: " + email + ", Mobile3: " + mobile;
     }
 }
